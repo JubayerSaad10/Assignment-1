@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    padding-bottom: 150px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+p{
+    color: dimgray;
+}
+h6{
+    font-size: 14px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-right: 50px;
+}
+  
+li {
+    float: right;
+}
+  
+li a {
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px;
+    display: block;
+    padding: 8px;
+    color: black;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    align-items: center;
+}
+.half-width img{
+    width: 100%;
+}
+.colors{
+    color: rgba(253, 130, 92, 0.945);
+}
+.btn{
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(45deg, rgb(253, 112, 112), rgba(236, 89, 44, 0.945));
+    margin-top: 50px;
+}
+.header{
+    height: 500px;
+}
+.center{
+    margin-top: 20%;
+    padding-left: 100px;
+}
+.middle{
+    margin-top: 15%;
+}
+.about{
+    padding-top: 50px;
+    height: 700px;
+}
+.experience-area{
+    margin-top: 100px;
+    height: 500px;
+}
+.experience{
+    float: left;
+    width: 25%;
+    height: 350px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+    transition:transform 0.5s;
+}
+.experience h4{
+    font-size: 24px;
+    text-align: center;
+    color: dimgray;
+    padding-top: 10px;
+}
+.experience p{
+    padding-top: 10px;
+}
+.experience-area div{
+    box-shadow: 5px 7px 40px gray;
+}
+.experience-area h2{
+    text-align: center;
+}
+.experience:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.footer{
+    text-align: center;
+}
+.footer img{
+    width: 30px;
+    border-radius: 50%;
+    padding: 10px;
+    transition:transform 0.5s;
+}
+.footer img:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.footer p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.message{
+    color: #fff;
+    background-image: url(images/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 800px;
+    height: 150px;
+    padding: 40px 60px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20%;
+    line-height: 35px;
+}
+.message a{
+    font-size: 30px;
+    color: white;
+    margin-left: 100px;
+}
+.inquiry{
+    width: 50%;
+    float: left;
+    margin-top: 60px;
+}
+footer{
+    text-align: center;
+}
